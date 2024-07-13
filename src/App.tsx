@@ -1,3 +1,4 @@
+import { Button } from 'antd'
 import SvgIcon from '@/components/svgIcon'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <SvgIcon name="arrow-down" />
       <SvgIcon name="empty" />
       <SvgIcon name="globalization" />
+      <Button type="primary">Button</Button>
     </>
   )
 }
