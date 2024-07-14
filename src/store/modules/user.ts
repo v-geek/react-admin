@@ -3,7 +3,7 @@ import { createSlice, type PayloadAction } from '@reduxjs/toolkit'
 export const userSlice = createSlice({
   name: 'user',
   initialState: {
-    token: null,
+    token: localStorage.getItem('token') || null,
     userInfo: null
   },
   reducers: {

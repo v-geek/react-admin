@@ -9,7 +9,8 @@ import userReducer from './modules/user'
 
 const persistConfig = {
   key: 'root-state',
-  storage
+  storage,
+  blacklist: ['user', 'permission']
 }
 
 const reducers = combineReducers({

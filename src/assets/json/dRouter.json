@@ -5,7 +5,7 @@
     {
       "path": "/home",
       "name": "home",
-      "component": "/home/index",
+      "element": "/home/index",
       "meta": {
         "title": "首页",
         "icon": "ep:home-filled"
@@ -13,8 +13,8 @@
     },
     {
       "path": "/components",
-      "name": "Components",
-      "redirect": "/components/gkUpload",
+      "name": "components",
+      "redirect": "/components/upload",
       "meta": {
         "title": "常用组件",
         "icon": "ep:menu"
@@ -23,7 +23,7 @@
         {
           "path": "/components/upload",
           "name": "upload",
-          "component": "/components/upload",
+          "element": "/components/upload",
           "meta": {
             "title": "图片上传(支持裁剪)"
           }
@@ -31,7 +31,7 @@
         {
           "path": "/components/area",
           "name": "area",
-          "component": "/components/area",
+          "element": "/components/area",
           "meta": {
             "title": "省市区选择(接口数据)"
           }
@@ -39,7 +39,7 @@
         {
           "path": "/components/mapAddrDrawer",
           "name": "mapAddrDrawer",
-          "component": "/components/mapAddrDrawer",
+          "element": "/components/mapAddrDrawer",
           "meta": {
             "title": "地图选点"
           }
@@ -47,7 +47,7 @@
         {
           "path": "/components/charts",
           "name": "Charts",
-          "component": "/components/charts",
+          "element": "/components/charts",
           "meta": {
             "title": "图表"
           }
@@ -55,7 +55,7 @@
         {
           "path": "/components/gkDrawer",
           "name": "gkDrawer",
-          "component": "/components/gkDrawer",
+          "element": "/components/gkDrawer",
           "meta": {
             "title": "抽屉"
           }
@@ -63,7 +63,7 @@
         {
           "path": "/components/gkTabs",
           "name": "gkTabs",
-          "component": "/components/gkTabs",
+          "element": "/components/gkTabs",
           "meta": {
             "title": "标签页"
           }
@@ -71,7 +71,7 @@
         {
           "path": "/components/gkDialog",
           "name": "gkDialog",
-          "component": "/components/gkDialog",
+          "element": "/components/gkDialog",
           "meta": {
             "title": "对话框"
           }
@@ -79,7 +79,7 @@
         {
           "path": "/components/gkCollapse",
           "name": "gkCollapse",
-          "component": "/components/gkCollapse",
+          "element": "/components/gkCollapse",
           "meta": {
             "title": "折叠面板"
           }
@@ -87,7 +87,7 @@
         {
           "path": "/components/progress",
           "name": "progress",
-          "component": "/components/progress",
+          "element": "/components/progress",
           "meta": {
             "title": "Progress动画"
           }
@@ -95,7 +95,7 @@
         {
           "path": "/components/chooseArea",
           "name": "chooseArea",
-          "component": "/components/chooseArea",
+          "element": "/components/chooseArea",
           "meta": {
             "title": "省市区选择(前端数据)"
           }
@@ -103,7 +103,7 @@
         {
           "path": "/components/wangEditor",
           "name": "wangEditor",
-          "component": "/components/wangEditor",
+          "element": "/components/wangEditor",
           "meta": {
             "title": "富文本编辑器"
           }
@@ -111,7 +111,7 @@
         {
           "path": "/components/gkUpload",
           "name": "gkUpload",
-          "component": "/components/gkUpload",
+          "element": "/components/gkUpload",
           "meta": {
             "title": "图片上传(自定义)"
           }
@@ -130,7 +130,7 @@
         {
           "path": "/able/table",
           "name": "InfiniteScrollTable",
-          "component": "/able/infiniteScroll",
+          "element": "/able/infiniteScroll",
           "meta": {
             "title": "表格无限滚动"
           }
@@ -138,7 +138,7 @@
         {
           "path": "/able/contextMenu",
           "name": "contextMenu",
-          "component": "/able/contextMenu",
+          "element": "/able/contextMenu",
           "meta": {
             "title": "右键菜单"
           }
@@ -146,7 +146,7 @@
         {
           "path": "/able/map",
           "name": "Map",
-          "component": "/able/map",
+          "element": "/able/map",
           "meta": {
             "title": "地图"
           }
@@ -154,7 +154,7 @@
         {
           "path": "/able/fileDownload",
           "name": "fileDownload",
-          "component": "/able/fileDownload",
+          "element": "/able/fileDownload",
           "meta": {
             "title": "文件下载"
           }
@@ -162,7 +162,7 @@
         {
           "path": "/able/checkWord",
           "name": "checkWord",
-          "component": "/able/checkWord",
+          "element": "/able/checkWord",
           "meta": {
             "title": "文件查看(word)",
             "showInMenu": false
@@ -171,7 +171,7 @@
         {
           "path": "/able/checkExcel",
           "name": "checkExcel",
-          "component": "/able/checkExcel",
+          "element": "/able/checkExcel",
           "meta": {
             "title": "文件查看(excel)",
             "showInMenu": false
@@ -191,7 +191,7 @@
         {
           "path": "/systemManage/account",
           "name": "systemManageAccount",
-          "component": "/systemManage/account/index",
+          "element": "/systemManage/account/index",
           "meta": {
             "title": "账号管理"
           },
@@ -199,7 +199,7 @@
             {
               "path": "/systemManage/account/page1",
               "name": "systemManageAccountPage1",
-              "component": "/systemManage/account/childs/page1",
+              "element": "/systemManage/account/childs/page1",
               "meta": {
                 "title": "子页面1",
                 "showInMenu": false
@@ -208,7 +208,7 @@
                 {
                   "path": "/systemManage/account/pageOuter",
                   "name": "systemManageAccountPageOuter",
-                  "component": "/systemManage/account/childs/pageOuter",
+                  "element": "/systemManage/account/childs/pageOuter",
                   "meta": {
                     "title": "嵌套最外层子页面-Outer",
                     "showInMenu": false
@@ -221,7 +221,7 @@
         {
           "path": "/systemManage/role",
           "name": "systemManageRole",
-          "component": "/systemManage/role/index",
+          "element": "/systemManage/role/index",
           "meta": {
             "title": "角色管理"
           }
@@ -229,7 +229,7 @@
         {
           "path": "/systemManage/menu",
           "name": "systemManageMenu",
-          "component": "/systemManage/menu/index",
+          "element": "/systemManage/menu/index",
           "meta": {
             "title": "菜单管理"
           }
@@ -248,7 +248,7 @@
         {
           "path": "/menu/menu1",
           "name": "menu1",
-          "component": "/menu/menu1/index",
+          "element": "/menu/menu1/index",
           "meta": {
             "title": "菜单1"
           }
@@ -264,7 +264,7 @@
             {
               "path": "/menu/menu2/menu21",
               "name": "menu21",
-              "component": "/menu/menu2/menu21/index",
+              "element": "/menu/menu2/menu21/index",
               "meta": {
                 "title": "菜单2-1"
               }
@@ -280,7 +280,7 @@
                 {
                   "path": "/menu/menu2/menu22/menu221",
                   "name": "menu221",
-                  "component": "/menu/menu2/menu22/menu221/index",
+                  "element": "/menu/menu2/menu22/menu221/index",
                   "meta": {
                     "title": "菜单2-2-1"
                   }
@@ -288,7 +288,7 @@
                 {
                   "path": "/menu/menu2/menu22/menu222",
                   "name": "menu222",
-                  "component": "/menu/menu2/menu22/menu222/index",
+                  "element": "/menu/menu2/menu22/menu222/index",
                   "meta": {
                     "title": "菜单2-2-2"
                   }
@@ -298,7 +298,7 @@
             {
               "path": "/menu/menu2/menu23",
               "name": "menu23",
-              "component": "/menu/menu2/menu23/index",
+              "element": "/menu/menu2/menu23/index",
               "meta": {
                 "title": "菜单2-3"
               }
@@ -308,7 +308,7 @@
         {
           "path": "/menu/menu3",
           "name": "menu3",
-          "component": "/menu/menu3/index",
+          "element": "/menu/menu3/index",
           "meta": {
             "title": "菜单3"
           }
@@ -327,7 +327,7 @@
         {
           "path": "/link/vue",
           "name": "vue",
-          "component": "/iframeView",
+          "element": "/iframeView",
           "meta": {
             "title": "Vue官方文档 ( 内嵌 )",
             "iframeSrc": "https://cn.vuejs.org/guide/introduction.html",
@@ -337,7 +337,7 @@
         {
           "path": "/link/bing",
           "name": "bing",
-          "component": "/iframeView",
+          "element": "/iframeView",
           "meta": {
             "title": "必应 ( 内嵌 )",
             "iframeSrc": "https://cn.bing.com/",
@@ -347,7 +347,7 @@
         {
           "path": "/link/checkPdf",
           "name": "linkCheckPdf",
-          "component": "/iframeView",
+          "element": "/iframeView",
           "meta": {
             "title": "查看PDF ( 内嵌 )",
             "iframeSrc": "http://static.shanhuxueyuan.com/test.pdf",

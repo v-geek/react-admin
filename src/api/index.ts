@@ -31,9 +31,11 @@ class Http {
     // 请求拦截器
     this.service.interceptors.request.use(
       (config: InternalAxiosRequestConfig) => {
-        const { token } = store.getState().user.token
+        const { token } = store.getState().user
 
-        if (token) config.headers.Authorization = `Bearer ${token}`
+        if (token) {
+          config.headers.Authorization = `Bearer ${token}`
+        }
 
         return config
       },
@@ -53,6 +55,7 @@ class Http {
         if (authStr && authStr.length > 0) {
           const token = authStr.substr(7)
           store.dispatch(setToken(token))
+          localStorage.setItem('token', token)
         }
 
         // token过期
